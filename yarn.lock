@@ -139,6 +139,11 @@
   resolved "https://registry.yarnpkg.com/@angular-eslint/bundled-angular-compiler/-/bundled-angular-compiler-16.2.0.tgz#09d0637d738850a2c6f0523f19632e992f790102"
   integrity sha512-ct9orDYxkMl2+uvM7UBfgV28Dq57V4dEs+Drh7cD673JIMa6sXbgmd0QEtm8W3cmyK/jcTzmuoufxbH7hOxd6g==
 
+"@angular-eslint/bundled-angular-compiler@17.1.0":
+  version "17.1.0"
+  resolved "https://registry.yarnpkg.com/@angular-eslint/bundled-angular-compiler/-/bundled-angular-compiler-17.1.0.tgz#71494f60ddb0cfabb047446a1d8a914f6a83eae4"
+  integrity sha512-Y+CN/8nQZaYjsb2b2sXbkQr0LrgBWhCzyLZ+rLfnLE60B9k4GeDt5b7z/OdSObi1xozXfqiaAZ1eXo0iQMN3JA==
+
 "@angular-eslint/eslint-plugin-template@16.2.0", "@angular-eslint/eslint-plugin-template@^16.2.0":
   version "16.2.0"
   resolved "https://registry.yarnpkg.com/@angular-eslint/eslint-plugin-template/-/eslint-plugin-template-16.2.0.tgz#5d1dd0f450020c9bc8d9cbd5fcbf173b15ff3bd3"
@@ -151,13 +156,21 @@
     aria-query "5.3.0"
     axobject-query "3.2.1"
 
-"@angular-eslint/eslint-plugin@16.2.0", "@angular-eslint/eslint-plugin@^16.2.0":
+"@angular-eslint/eslint-plugin@16.2.0":
   version "16.2.0"
   resolved "https://registry.yarnpkg.com/@angular-eslint/eslint-plugin/-/eslint-plugin-16.2.0.tgz#2d61d087d208f347c9c472ecd9b0eee1fae1b21b"
   integrity sha512-zdiAIox1T+B71HL+A8m+1jWdU34nvPGLhCRw/uZNwHzknsF4tYzNQ9W7T/SC/g/2s1yT2yNosEVNJSGSFvunJg==
   dependencies:
     "@angular-eslint/utils" "16.2.0"
     "@typescript-eslint/utils" "5.62.0"
+
+"@angular-eslint/eslint-plugin@^17.1.0":
+  version "17.1.0"
+  resolved "https://registry.yarnpkg.com/@angular-eslint/eslint-plugin/-/eslint-plugin-17.1.0.tgz#461be368ba0558a4a648a1da0eca0cbb56407e48"
+  integrity sha512-pQac5h+XwsquDzaasK/xs9tjdQ/f9eLq8e5An9eXJGHWy4KcrMmQ1XrpaMMMg503LF3rRG/dHKBskGsYgSN9oQ==
+  dependencies:
+    "@angular-eslint/utils" "17.1.0"
+    "@typescript-eslint/utils" "6.11.0"
 
 "@angular-eslint/schematics@^16.2.0":
   version "16.2.0"
@@ -187,6 +200,14 @@
   dependencies:
     "@angular-eslint/bundled-angular-compiler" "16.2.0"
     "@typescript-eslint/utils" "5.62.0"
+
+"@angular-eslint/utils@17.1.0":
+  version "17.1.0"
+  resolved "https://registry.yarnpkg.com/@angular-eslint/utils/-/utils-17.1.0.tgz#eb8a8855d6ae30649cccdf869d0b556a6f6ed7ba"
+  integrity sha512-AmG0xpRtnBQwrbHObonSilmD3hiFEtZHwFY3LT28VWxznB6WIAHFE7SrKWrRsRsXlib8LaRo4uobR5+MO8aLpw==
+  dependencies:
+    "@angular-eslint/bundled-angular-compiler" "17.1.0"
+    "@typescript-eslint/utils" "6.11.0"
 
 "@angular/animations@^16.2.7":
   version "16.2.7"
@@ -3328,6 +3349,14 @@
     "@typescript-eslint/types" "5.62.0"
     "@typescript-eslint/visitor-keys" "5.62.0"
 
+"@typescript-eslint/scope-manager@6.11.0":
+  version "6.11.0"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/scope-manager/-/scope-manager-6.11.0.tgz#621f603537c89f4d105733d949aa4d55eee5cea8"
+  integrity sha512-0A8KoVvIURG4uhxAdjSaxy8RdRE//HztaZdG8KiHLP8WOXSk0vlF7Pvogv+vlJA5Rnjj/wDcFENvDaHb+gKd1A==
+  dependencies:
+    "@typescript-eslint/types" "6.11.0"
+    "@typescript-eslint/visitor-keys" "6.11.0"
+
 "@typescript-eslint/scope-manager@6.7.4":
   version "6.7.4"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/scope-manager/-/scope-manager-6.7.4.tgz#a484a17aa219e96044db40813429eb7214d7b386"
@@ -3361,6 +3390,11 @@
   resolved "https://registry.yarnpkg.com/@typescript-eslint/types/-/types-5.62.0.tgz#258607e60effa309f067608931c3df6fed41fd2f"
   integrity sha512-87NVngcbVXUahrRTqIK27gD2t5Cu1yuCXxbLcFtCzZGlfyVWWh8mLHkoxzjsB6DDNnvdL+fW8MiwPEJyGJQDgQ==
 
+"@typescript-eslint/types@6.11.0":
+  version "6.11.0"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/types/-/types-6.11.0.tgz#8ad3aa000cbf4bdc4dcceed96e9b577f15e0bf53"
+  integrity sha512-ZbEzuD4DwEJxwPqhv3QULlRj8KYTAnNsXxmfuUXFCxZmO6CF2gM/y+ugBSAQhrqaJL3M+oe4owdWunaHM6beqA==
+
 "@typescript-eslint/types@6.7.4":
   version "6.7.4"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/types/-/types-6.7.4.tgz#5d358484d2be986980c039de68e9f1eb62ea7897"
@@ -3378,6 +3412,19 @@
     is-glob "^4.0.3"
     semver "^7.3.7"
     tsutils "^3.21.0"
+
+"@typescript-eslint/typescript-estree@6.11.0":
+  version "6.11.0"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/typescript-estree/-/typescript-estree-6.11.0.tgz#7b52c12a623bf7f8ec7f8a79901b9f98eb5c7990"
+  integrity sha512-Aezzv1o2tWJwvZhedzvD5Yv7+Lpu1by/U1LZ5gLc4tCx8jUmuSCMioPFRjliN/6SJIvY6HpTtJIWubKuYYYesQ==
+  dependencies:
+    "@typescript-eslint/types" "6.11.0"
+    "@typescript-eslint/visitor-keys" "6.11.0"
+    debug "^4.3.4"
+    globby "^11.1.0"
+    is-glob "^4.0.3"
+    semver "^7.5.4"
+    ts-api-utils "^1.0.1"
 
 "@typescript-eslint/typescript-estree@6.7.4":
   version "6.7.4"
@@ -3406,6 +3453,19 @@
     eslint-scope "^5.1.1"
     semver "^7.3.7"
 
+"@typescript-eslint/utils@6.11.0":
+  version "6.11.0"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/utils/-/utils-6.11.0.tgz#11374f59ef4cea50857b1303477c08aafa2ca604"
+  integrity sha512-p23ibf68fxoZy605dc0dQAEoUsoiNoP3MD9WQGiHLDuTSOuqoTsa4oAy+h3KDkTcxbbfOtUjb9h3Ta0gT4ug2g==
+  dependencies:
+    "@eslint-community/eslint-utils" "^4.4.0"
+    "@types/json-schema" "^7.0.12"
+    "@types/semver" "^7.5.0"
+    "@typescript-eslint/scope-manager" "6.11.0"
+    "@typescript-eslint/types" "6.11.0"
+    "@typescript-eslint/typescript-estree" "6.11.0"
+    semver "^7.5.4"
+
 "@typescript-eslint/utils@6.7.4":
   version "6.7.4"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/utils/-/utils-6.7.4.tgz#2236f72b10e38277ee05ef06142522e1de470ff2"
@@ -3426,6 +3486,14 @@
   dependencies:
     "@typescript-eslint/types" "5.62.0"
     eslint-visitor-keys "^3.3.0"
+
+"@typescript-eslint/visitor-keys@6.11.0":
+  version "6.11.0"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/visitor-keys/-/visitor-keys-6.11.0.tgz#d991538788923f92ec40d44389e7075b359f3458"
+  integrity sha512-+SUN/W7WjBr05uRxPggJPSzyB8zUpaYo2hByKasWbqr3PM8AXfZt8UHdNpBS1v9SA62qnSSMF3380SwDqqprgQ==
+  dependencies:
+    "@typescript-eslint/types" "6.11.0"
+    eslint-visitor-keys "^3.4.1"
 
 "@typescript-eslint/visitor-keys@6.7.4":
   version "6.7.4"
